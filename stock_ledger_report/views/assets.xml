@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+        <template id="account_reports_backend" inherit_id="web.assets_backend" active="True">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/stock_ledger_report/static/src/js/stock_report.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo>

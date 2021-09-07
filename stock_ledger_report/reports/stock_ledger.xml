@@ -1,0 +1,104 @@
+<odoo>
+    <data>
+        <record id="action_stock_ledger" model="ir.actions.client">
+            <field name="name">Stock ledger</field>
+            <field name="tag">account_report</field>
+            <field name="context" eval="{'model': 'stock_ledger_report.stock.ledger'}"/>
+        </record>
+
+        <menuitem id="menu_action_stock_ledger"
+                  name="Stock ledger"
+                  action="action_stock_ledger"
+                  parent="stock.menu_warehouse_report"/>
+
+        <template id="search_template">
+            <div class="btn-group o_dropdown o_account_reports_filter_date" t-if="options.get('date') != None">
+                <t t-call="account_reports.search_template_date_filter"/>
+            </div>
+            <div class="btn-group o_dropdown" t-if="options.get('warehouse') != None">
+                <t t-call="stock_ledger_report.search_template_warehouse_filter"/>
+            </div>
+            <div class="btn-group o_dropdown" t-if="options.get('location') != None">
+                <t t-call="stock_ledger_report.search_template_location_filter"/>
+            </div>
+            <div class="btn-group o_dropdown" t-if="options.get('product')">
+                <t t-call="stock_ledger_report.search_template_product_filter"/>
+            </div>
+        </template>
+
+        <template id="search_template_warehouse_filter">
+            <a type="button" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="fa fa-user"/>
+                Warehouse:
+                <t t-set="warehouse_value" t-value="'All'"/>
+                <t t-foreach="options['warehouse']" t-as="a">
+                    <t t-if="a.get('selected') == True">
+                        <t t-set="warehouse_value" t-value="''"/>
+                        <t t-esc="a.get('name')"/>
+                    </t>
+                </t>
+                <t t-esc="warehouse_value"/>
+            </a>
+            <div class="dropdown-menu o_filters_menu" role="menu">
+                <t t-foreach="options['warehouse']" t-as="a">
+                    <a role="menuitem" class="dropdown-item js_account_report_choice_filter" t-att-title="a.get('name')"
+                       t-att-data-id="a.get('id')" data-filter="warehouse">
+                        <t t-esc="a.get('name')"/>
+                    </a>
+                </t>
+            </div>
+        </template>
+
+        <template id="search_template_location_filter">
+            <a type="button" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="fa fa-user"/>
+                Location:
+                <t t-set="location_value" t-value="'All'"/>
+                <t t-foreach="options['location']" t-as="a">
+                    <t t-if="a.get('selected') == True">
+                        <t t-set="location_value" t-value="''"/>
+                        <t t-esc="a.get('name')"/>
+                    </t>
+                </t>
+                <t t-esc="location_value"/>
+            </a>
+            <div class="dropdown-menu o_filters_menu" role="menu">
+                <t t-foreach="options['location']" t-as="a">
+                    <a role="menuitem" class="dropdown-item js_account_report_choice_filter" t-att-title="a.get('name')"
+                       t-att-data-id="a.get('id')" data-filter="location">
+                        <t t-esc="a.get('name')"/>
+                    </a>
+                </t>
+            </div>
+        </template>
+
+        <template id="search_template_product_filter">
+            <a t-if="options.get('product')" type="button" class="dropdown-toggle product_product_filter"
+               data-toggle="dropdown">
+                <span class="fa fa-folder-open"/>
+                Product
+            </a>
+            <ul class="dropdown-menu o_filters_menu" role="menu">
+                <li class="o_account_report_search js_product_product_m2m"/>
+            </ul>
+        </template>
+
+        <template id="search_template_date_filter" inherit_id="account_reports.search_template_date_filter">
+            <xpath expr="//a[@data-filter='this_month']" position="before">
+                <a role="menuitem" class="dropdown-item js_account_report_date_filter" title="Today"
+                   data-filter="today">Today
+                </a>
+            </xpath>
+        </template>
+
+        <template id="line_template_stock_ledger_report" inherit_id="account_reports.line_template" primary="True">
+            <xpath expr="//div[hasclass('o_account_reports_domain_dropdown')]/*[last()]" position="before">
+                <t t-if="line['caret_options'] == 'stock.move'">
+                    <a role="menuitem" tabindex="-1" t-att-data-id="line['id']" action="open_document"
+                       class="dropdown-item">View Product Move
+                    </a>
+                </t>
+            </xpath>
+        </template>
+    </data>
+</odoo>

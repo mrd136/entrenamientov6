@@ -1,0 +1,15 @@
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="fel_megaprint_retornacliente.nombre_facturacion_form">
+            <field name="name">fel_megaprint_retornacliente.nombre_facturacion_form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="fel_gt.view_partner_form_fel_gt"/>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <field name="nombre_facturacion_fel" position="after">
+                    <button name="get_name" string="Obtener Datos Facturación" type="object" help="Obtener Nombre y Dirección de Facturación desde SAT a partir del NIT." class="oe_link pt-0"/>
+                </field>
+            </field>
+        </record>
+    </data>
+</openerp>

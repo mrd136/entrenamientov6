@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-inherit="point_of_sale.OrderReceipt" t-inherit-mode="extension">
+           <xpath expr="//div[hasclass('pos-receipt-contact')]" position="replace">
+                  <div class="datos_factura">
+                    <center>
+                        <div><t t-esc="receipt.company.name"/></div>
+                        <div>NIT: <t t-esc="receipt.company.vat"/></div>
+                        <div><t t-esc="receipt.header" /></div>
+
+                         <t t-if="state.fel_gt.firma_fel">
+                            Documento Tributario Electrónico FEL<br/>
+                            Factura Electrónica<br/>
+                            Serie: <t t-esc="state.fel_gt.serie_fel || ''"/><br/>
+                            Número: <t t-esc="state.fel_gt.numero_fel || ''"/><br/>
+                        </t> 
+                        Fecha: <t t-esc="receipt.date.localestring"/><br/>
+                        <br/>
+                        NIT: <t t-esc="receipt.client.vat ? receipt.client.vat : 'CF'"/><br/>
+                        Nombre: <t t-esc="receipt.client.name"/><br/>
+                        Dirección: Ciudad <br/><br/>
+                        
+                    </center>    
+                </div>
+           </xpath>
+        
+          <xpath expr="//div[hasclass('pos-receipt-order-data')]" position="before">
+              <center>
+                  Autorización: <br/>
+                  <t t-esc="state.fel_gt.firma_fel || ''"/><br/>
+                  <div>Certificador: COFIDI S.A.</div>
+                  <div>NIT: 6246904-5</div>
+              </center>
+              
+          </xpath>
+    </t>
+</templates>

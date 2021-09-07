@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="res_town_tree_view" model="ir.ui.view">
+        <field name="name">Town</field>
+        <field name="model">res.town</field>
+        <field name="arch" type="xml">
+            <tree string="Town" editable="bottom">
+                <field name="name"/>
+                <field name="code"/>
+                <field name="state_id"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="res_town_search_view" model="ir.ui.view">
+        <field name="name">Town Search</field>
+        <field name="model">res.town</field>
+        <field name="arch" type="xml">
+            <search string="Tip">
+                <field name="code"/>
+                <field name="name"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="res_town_action" model="ir.actions.act_window">
+        <field name="name">Town</field>
+        <field name="res_model">res.town</field>
+        <field name="view_id" ref="res_town_tree_view"/>
+    </record>
+
+    <menuitem id="menu_res_town_action"
+        action="res_town_action"
+        parent="contacts.menu_localisation"
+        sequence="4"/>
+
+    <record id="view_partner_form_inherit_res_town" model="ir.ui.view">
+        <field name="name">res.partner.form.res.town.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <field name="country_id" position="before">
+                <field name="town_id" placeholder="Town"/>
+            </field>
+        </field>
+    </record>
+</odoo>

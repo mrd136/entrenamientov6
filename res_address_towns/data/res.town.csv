@@ -1,0 +1,339 @@
+name,code,state_id:id
+Guatemala,101,base.state_gt_gua
+Santa Catarina Pinula,102,base.state_gt_gua
+San José Pinula,103,base.state_gt_gua
+San José del Golfo,104,base.state_gt_gua
+Palencia,105,base.state_gt_gua
+Chinautla,106,base.state_gt_gua
+San Pedro Ayampuc,107,base.state_gt_gua
+Mixco,108,base.state_gt_gua
+San Pedro Sacatepéquez,109,base.state_gt_gua
+San Juan Sacatepéquez,110,base.state_gt_gua
+San Raymundo,111,base.state_gt_gua
+Chuarrancho,112,base.state_gt_gua
+Fraijanes,113,base.state_gt_gua
+Amatitlán,114,base.state_gt_gua
+Villa Nueva,115,base.state_gt_gua
+Villa Canales,116,base.state_gt_gua
+Petapa,117,base.state_gt_gua
+Guastatoya,201,base.state_gt_epr
+Morazán,202,base.state_gt_epr
+San Agustín Acasaguastlán,203,base.state_gt_epr
+San Cristóbal Acasaguastlán,204,base.state_gt_epr
+El Jícaro,205,base.state_gt_epr
+Sansare,206,base.state_gt_epr
+Sanarate,207,base.state_gt_epr
+San Antonio la Paz,208,base.state_gt_epr
+Antigua Guatemala,301,base.state_gt_sac
+Jocotenango,302,base.state_gt_sac
+Pastores,303,base.state_gt_sac
+Sumpango,304,base.state_gt_sac
+Santo Domingo Xenacoj,305,base.state_gt_sac
+Santiago Sacatepéquez,306,base.state_gt_sac
+San Bartolomé Milpas Altas,307,base.state_gt_sac
+San Lucas Sacatepéquez,308,base.state_gt_sac
+Santa Lucía Milpas Altas,309,base.state_gt_sac
+Magdalena Milpas Altas,310,base.state_gt_sac
+Santa María de Jesús,311,base.state_gt_sac
+Ciudad Vieja,312,base.state_gt_sac
+San Miguel Dueñas,313,base.state_gt_sac
+Alotenango,314,base.state_gt_sac
+San Antonio Aguas Calientes,315,base.state_gt_sac
+Santa Catarina Barahona,316,base.state_gt_sac
+Chimaltenango,401,base.state_gt_cmt
+San José Poaquil,402,base.state_gt_cmt
+San Martín Jilotepeque,403,base.state_gt_cmt
+Comalapa,404,base.state_gt_cmt
+Santa Apolonia,405,base.state_gt_cmt
+Tecpán Guatemala,406,base.state_gt_cmt
+Patzún,407,base.state_gt_cmt
+Pochuta,408,base.state_gt_cmt
+Patzicía,409,base.state_gt_cmt
+Santa Cruz Balanyá,410,base.state_gt_cmt
+Acatenango,411,base.state_gt_cmt
+Yepocapa,412,base.state_gt_cmt
+San Andrés Itzapa,413,base.state_gt_cmt
+Parramos,414,base.state_gt_cmt
+Zaragoza,415,base.state_gt_cmt
+El Tejar,416,base.state_gt_cmt
+Escuintla,501,base.state_gt_esc
+Santa Lucía Cotzumalguapa,502,base.state_gt_esc
+La Democracia,503,base.state_gt_esc
+Siquinalá,504,base.state_gt_esc
+Masagua,505,base.state_gt_esc
+Tiquisate,506,base.state_gt_esc
+La Gomera,507,base.state_gt_esc
+Guanagazapa,508,base.state_gt_esc
+San José,509,base.state_gt_esc
+Iztapa,510,base.state_gt_esc
+Palín,511,base.state_gt_esc
+San Vicente Pacaya,512,base.state_gt_esc
+Nueva Concepción,513,base.state_gt_esc
+Cuilapa,601,base.state_gt_sro
+Barberena,602,base.state_gt_sro
+Santa Rosa de Lima,603,base.state_gt_sro
+Casillas,604,base.state_gt_sro
+San Rafael las Flores,605,base.state_gt_sro
+Oratorio,606,base.state_gt_sro
+San Juan Tecuaco,607,base.state_gt_sro
+Chiquimulilla,608,base.state_gt_sro
+Taxisco,609,base.state_gt_sro
+Santa María Ixhuatán,610,base.state_gt_sro
+Guazacapán,611,base.state_gt_sro
+Santa Cruz Naranjo,612,base.state_gt_sro
+Pueblo Nuevo Viñas,613,base.state_gt_sro
+Nueva Santa Rosa,614,base.state_gt_sro
+Sololá,701,base.state_gt_sol
+San José Chacayá,702,base.state_gt_sol
+Santa María Visitación,703,base.state_gt_sol
+Santa Lucía Utatlán,704,base.state_gt_sol
+Nahualá,705,base.state_gt_sol
+Santa Catarina Ixtahuacán,706,base.state_gt_sol
+Santa Clara la Laguna,707,base.state_gt_sol
+Concepción,708,base.state_gt_sol
+San Andrés Semetabaj,709,base.state_gt_sol
+Panajachel,710,base.state_gt_sol
+Santa Catarina Palopó,711,base.state_gt_sol
+San Antonio Palopó,712,base.state_gt_sol
+San Lucas Tolimán,713,base.state_gt_sol
+Santa Cruz la Laguna,714,base.state_gt_sol
+San Pablo la Laguna,715,base.state_gt_sol
+San Marcos la Laguna,716,base.state_gt_sol
+San Juan la Laguna,717,base.state_gt_sol
+San Pedro la Laguna,718,base.state_gt_sol
+Santiago Atitlán,719,base.state_gt_sol
+Totonicapán,801,base.state_gt_tot
+San Cristóbal Totonicapán,802,base.state_gt_tot
+San Francisco el Alto,803,base.state_gt_tot
+San Andrés Xecul,804,base.state_gt_tot
+Momostenango,805,base.state_gt_tot
+Santa María Chiquimula,806,base.state_gt_tot
+Santa Lucía la Reforma,807,base.state_gt_tot
+San Bartolo,808,base.state_gt_tot
+Quetzaltenango,901,base.state_gt_que
+Salcajá,902,base.state_gt_que
+Olintepeque,903,base.state_gt_que
+San Carlos Sija,904,base.state_gt_que
+Sibilia,905,base.state_gt_que
+Cabricán,906,base.state_gt_que
+Cajolá,907,base.state_gt_que
+San Miguel Siguilá,908,base.state_gt_que
+Ostuncalco,909,base.state_gt_que
+San Mateo,910,base.state_gt_que
+Concepción Chiquirichapa,911,base.state_gt_que
+San Martín Sacatepéquez,912,base.state_gt_que
+Almolonga,913,base.state_gt_que
+Cantel,914,base.state_gt_que
+Huitán,915,base.state_gt_que
+Zunil,916,base.state_gt_que
+Colomba,917,base.state_gt_que
+San Francisco la Unión,918,base.state_gt_que
+El Palmar,919,base.state_gt_que
+Coatepeque,920,base.state_gt_que
+Génova,921,base.state_gt_que
+Flores Costa Cuca,922,base.state_gt_que
+La Esperanza,923,base.state_gt_que
+Palestina de los Altos,924,base.state_gt_que
+Mazatenango,1001,base.state_gt_suc
+Cuyotenango,1002,base.state_gt_suc
+San Francisco Zapotitlán,1003,base.state_gt_suc
+San Bernardino,1004,base.state_gt_suc
+San José el Idolo,1005,base.state_gt_suc
+Santo Domingo Suchitepéquez,1006,base.state_gt_suc
+San Lorenzo,1007,base.state_gt_suc
+Samayac,1008,base.state_gt_suc
+San Pablo Jocopilas,1009,base.state_gt_suc
+San Antonio Suchitepéquez,1010,base.state_gt_suc
+San Miguel Panán,1011,base.state_gt_suc
+San Gabriel,1012,base.state_gt_suc
+Chicacao,1013,base.state_gt_suc
+Patulul,1014,base.state_gt_suc
+Santa Bárbara,1015,base.state_gt_suc
+San Juan Bautista,1016,base.state_gt_suc
+Santo Tomás la Unión,1017,base.state_gt_suc
+Zunilito,1018,base.state_gt_suc
+Pueblo Nuevo,1019,base.state_gt_suc
+Río Bravo,1020,base.state_gt_suc
+San José La Máquina,1021,base.state_gt_suc
+Retalhuleu,1101,base.state_gt_ret
+San Sebastián,1102,base.state_gt_ret
+Santa Cruz Muluá,1103,base.state_gt_ret
+San Martín Zapotitlán,1104,base.state_gt_ret
+San Felipe,1105,base.state_gt_ret
+San Andrés Villa Seca,1106,base.state_gt_ret
+Champerico,1107,base.state_gt_ret
+Nuevo San Carlos,1108,base.state_gt_ret
+El Asintal,1109,base.state_gt_ret
+San Marcos,1201,base.state_gt_sma
+San Pedro Sacatepéquez,1202,base.state_gt_sma
+San Antonio Sacatepéquez,1203,base.state_gt_sma
+Comitancillo,1204,base.state_gt_sma
+San Miguel Ixtahuacán,1205,base.state_gt_sma
+Concepción Tutuapa,1206,base.state_gt_sma
+Tacaná,1207,base.state_gt_sma
+Sibinal,1208,base.state_gt_sma
+Tajumulco,1209,base.state_gt_sma
+Tejutla,1210,base.state_gt_sma
+San Rafael Pié de la Cuesta,1211,base.state_gt_sma
+Nuevo Progreso,1212,base.state_gt_sma
+El Tumbador,1213,base.state_gt_sma
+El Rodeo,1214,base.state_gt_sma
+Malacatán,1215,base.state_gt_sma
+Catarina,1216,base.state_gt_sma
+Ayutla,1217,base.state_gt_sma
+Ocós,1218,base.state_gt_sma
+San Pablo,1219,base.state_gt_sma
+El Quetzal,1220,base.state_gt_sma
+La Reforma,1221,base.state_gt_sma
+Pajapita,1222,base.state_gt_sma
+Ixchiguán,1223,base.state_gt_sma
+San José Ojetenán,1224,base.state_gt_sma
+San Cristóbal Cucho,1225,base.state_gt_sma
+Sipacapa,1226,base.state_gt_sma
+Esquipulas Palo Gordo,1227,base.state_gt_sma
+Río Blanco,1228,base.state_gt_sma
+San Lorenzo,1229,base.state_gt_sma
+La Blanca,1230,base.state_gt_sma
+Huehuetenango,1301,base.state_gt_hue
+Chiantla,1302,base.state_gt_hue
+Malacatancito,1303,base.state_gt_hue
+Cuilco,1304,base.state_gt_hue
+Nentón,1305,base.state_gt_hue
+San Pedro Necta,1306,base.state_gt_hue
+Jacaltenango,1307,base.state_gt_hue
+Soloma,1308,base.state_gt_hue
+Ixtahuacán,1309,base.state_gt_hue
+Santa Bárbara,1310,base.state_gt_hue
+La Libertad,1311,base.state_gt_hue
+La Democracia,1312,base.state_gt_hue
+San Miguel Acatán,1313,base.state_gt_hue
+San Rafael la Independencia,1314,base.state_gt_hue
+Todos Santos Cuchumatán,1315,base.state_gt_hue
+San Juan Atitán,1316,base.state_gt_hue
+Santa Eulalia,1317,base.state_gt_hue
+San Mateo Ixtatán,1318,base.state_gt_hue
+Colotenango,1319,base.state_gt_hue
+San Sebastián Huehuetenango,1320,base.state_gt_hue
+Tectitán,1321,base.state_gt_hue
+Concepción Huista,1322,base.state_gt_hue
+San Juan Ixcoy,1323,base.state_gt_hue
+San Antonio Huista,1324,base.state_gt_hue
+San Sebastián Coatán,1325,base.state_gt_hue
+Barillas,1326,base.state_gt_hue
+Aguacatán,1327,base.state_gt_hue
+San Rafael Petzal,1328,base.state_gt_hue
+San Gaspar Ixchil,1329,base.state_gt_hue
+Santiago Chimaltenango,1330,base.state_gt_hue
+Santa Ana Huista,1331,base.state_gt_hue
+Unión Cantinil,1332,base.state_gt_hue
+Santa Cruz del Quiché,1401,base.state_gt_qui
+Chiché,1402,base.state_gt_qui
+Chinique,1403,base.state_gt_qui
+Zacualpa,1404,base.state_gt_qui
+Chajul,1405,base.state_gt_qui
+Chichicastenango,1406,base.state_gt_qui
+Patzité,1407,base.state_gt_qui
+San Antonio Ilotenango,1408,base.state_gt_qui
+San Pedro Jocopilas,1409,base.state_gt_qui
+Cunén,1410,base.state_gt_qui
+San Juan Cotzal,1411,base.state_gt_qui
+Joyabaj,1412,base.state_gt_qui
+Nebaj,1413,base.state_gt_qui
+San Andrés Sajcabajá,1414,base.state_gt_qui
+Uspantán,1415,base.state_gt_qui
+Sacapulas,1416,base.state_gt_qui
+San Bartolomé Jocotenango,1417,base.state_gt_qui
+Canillá,1418,base.state_gt_qui
+Chicamán,1419,base.state_gt_qui
+Ixcán,1420,base.state_gt_qui
+Pachalum,1421,base.state_gt_qui
+Salamá,1501,base.state_gt_bve
+San Miguel Chicaj,1502,base.state_gt_bve
+Rabinal,1503,base.state_gt_bve
+Cubulco,1504,base.state_gt_bve
+Granados,1505,base.state_gt_bve
+El Chol,1506,base.state_gt_bve
+San Jerónimo,1507,base.state_gt_bve
+Purulhá,1508,base.state_gt_bve
+Cobán,1601,base.state_gt_ave
+Santa Cruz Verapaz,1602,base.state_gt_ave
+San Cristóbal Verapaz,1603,base.state_gt_ave
+Tactic,1604,base.state_gt_ave
+Tamahú,1605,base.state_gt_ave
+Tucurú,1606,base.state_gt_ave
+Panzós,1607,base.state_gt_ave
+Senahú,1608,base.state_gt_ave
+San Pedro Carchá,1609,base.state_gt_ave
+San Juan Chamelco,1610,base.state_gt_ave
+Lanquín,1611,base.state_gt_ave
+Cahabón,1612,base.state_gt_ave
+Chisec,1613,base.state_gt_ave
+Chahal,1614,base.state_gt_ave
+Fray Bartolomé de las Casas,1615,base.state_gt_ave
+Santa Catalina la Tinta,1616,base.state_gt_ave
+Raxruhá,1617,base.state_gt_ave
+Flores,1701,base.state_gt_pet
+San José,1702,base.state_gt_pet
+San Benito,1703,base.state_gt_pet
+San Andrés,1704,base.state_gt_pet
+La Libertad,1705,base.state_gt_pet
+San Francisco,1706,base.state_gt_pet
+Santa Ana,1707,base.state_gt_pet
+Dolores,1708,base.state_gt_pet
+San Luis,1709,base.state_gt_pet
+Sayaxché,1710,base.state_gt_pet
+Melchor de Mencos,1711,base.state_gt_pet
+Poptún,1712,base.state_gt_pet
+Las Cruces,1713,base.state_gt_pet
+El Chal,1714,base.state_gt_pet
+Puerto Barrios,1801,base.state_gt_iza
+Livingston,1802,base.state_gt_iza
+El Estor,1803,base.state_gt_iza
+Morales,1804,base.state_gt_iza
+Los Amates,1805,base.state_gt_iza
+Zacapa,1901,base.state_gt_zac
+Estanzuela,1902,base.state_gt_zac
+Río Hondo,1903,base.state_gt_zac
+Gualán,1904,base.state_gt_zac
+Teculután,1905,base.state_gt_zac
+Usumatlán,1906,base.state_gt_zac
+Cabañas,1907,base.state_gt_zac
+San Diego,1908,base.state_gt_zac
+La Unión,1909,base.state_gt_zac
+Huité,1910,base.state_gt_zac
+San Jorge,1911,base.state_gt_zac
+Chiquimula,2001,base.state_gt_cqm
+San José La Arada,2002,base.state_gt_cqm
+San Juan Ermita,2003,base.state_gt_cqm
+Jocotán,2004,base.state_gt_cqm
+Camotán,2005,base.state_gt_cqm
+Olopa,2006,base.state_gt_cqm
+Esquipulas,2007,base.state_gt_cqm
+Concepción Las Minas,2008,base.state_gt_cqm
+Quetzaltepeque,2009,base.state_gt_cqm
+San Jacinto,2010,base.state_gt_cqm
+Ipala,2011,base.state_gt_cqm
+Jalapa,2101,base.state_gt_jal
+San Pedro Pinula,2102,base.state_gt_jal
+San Luis Jilotepeque,2103,base.state_gt_jal
+San Manuel Chaparrón,2104,base.state_gt_jal
+San Carlos Alzatate,2105,base.state_gt_jal
+Monjas,2106,base.state_gt_jal
+Mataquescuintla,2107,base.state_gt_jal
+Jutiapa,2201,base.state_gt_jut
+El Progreso,2202,base.state_gt_jut
+Santa Catarina Mita,2203,base.state_gt_jut
+Agua Blanca,2204,base.state_gt_jut
+Asunción Mita,2205,base.state_gt_jut
+Yupiltepeque,2206,base.state_gt_jut
+Atescatempa,2207,base.state_gt_jut
+Jerez,2208,base.state_gt_jut
+El Adelanto,2209,base.state_gt_jut
+Zapotitlán,2210,base.state_gt_jut
+Comapa,2211,base.state_gt_jut
+Jalpatagua,2212,base.state_gt_jut
+Conguaco,2213,base.state_gt_jut
+Moyuta,2214,base.state_gt_jut
+Pasaco,2215,base.state_gt_jut
+San José Acatempa,2216,base.state_gt_jut
+Quesada,2217,base.state_gt_jut
