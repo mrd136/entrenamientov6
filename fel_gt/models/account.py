@@ -121,7 +121,7 @@ class AccountMove(models.Model):
 
             DireccionReceptor = etree.SubElement(Receptor, DTE_NS+"DireccionReceptor")
             Direccion = etree.SubElement(DireccionReceptor, DTE_NS+"Direccion")
-            Direccion.text = (factura.partner_id.street or '') + ' ' + (factura.partner_id.street2 or '') + ' ' + (factura.partner_id.city or '') + ' ' + (factura.partner_id.state_id.name or '')
+            Direccion.text = (factura.partner_id.street or 'Ciudad') + ' ' + (factura.partner_id.street2 or '') + ' ' + (factura.partner_id.city or '') + ' ' + (factura.partner_id.state_id.name or '')
             CodigoPostal = etree.SubElement(DireccionReceptor, DTE_NS+"CodigoPostal")
             CodigoPostal.text = factura.partner_id.zip or '01001'
             Municipio = etree.SubElement(DireccionReceptor, DTE_NS+"Municipio")
