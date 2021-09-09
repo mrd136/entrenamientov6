@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<record id="pos_order_cancel_button" model="ir.ui.view">
+			<field name="name">pos.order.cancel.button</field>
+			<field name="model">pos.order</field>
+			<field name="inherit_id" ref="point_of_sale.view_pos_pos_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//button[@name='refund']" position="after">
+                    <button name="pos_order_cancel" type="object" string="Cancel" attrs="{'invisible':[('state','in',['draft','cancel','done'])]}"/>
+                    <button name="action_draft" type="object" string="Reset to Draft" attrs="{'invisible':[('state','not in','cancel')]}"/>
+
+                </xpath>
+			</field>
+		</record>
+
+	<act_window 
+			id="mass_cancel_pos_act_window"
+			name="Mass Cancel Orders"
+            res_model="mass.cancel.wizard"
+            binding_model="pos.order"
+            view_mode="form"
+            domain="[('id','in',active_ids)]"
+            view_id="bi_pos_order_cancel.wizard_mass_cancel"
+            target="new"
+   		/>
+
+	<act_window 
+			id="mass_cancel_draft_pos_act_window"
+			name="Mass Cancel and Reset to Draft"
+            res_model="mass.cancel.draft.wizard"
+            binding_model="pos.order"
+            view_mode="form"
+            domain="[('id','in',active_ids)]"
+            view_id="bi_pos_order_cancel.wizard_mass_cancel_draft"
+            target="new"
+   		/>
+	</data>
+</odoo>
+
+
+

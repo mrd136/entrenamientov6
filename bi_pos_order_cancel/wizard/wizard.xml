@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		
+		<record id="wizard_mass_cancel" model="ir.ui.view">
+			<field name="name">wizard.mass.cancel.form</field>
+			<field name="model">mass.cancel.wizard</field>
+			<field name="arch" type="xml">
+				<form string="Mass Cancel" >
+					<group col="4" colspan="2" >
+						<field name="mass_cancel" string="Are you sure want to cancel all selected Pos Order?"/>
+					</group>
+					<footer>
+	
+						<button name="on_click" string="Cancel Order"
+							type="object" class="oe_highlight" />
+						<button string="Cancel" class="oe_link" special="cancel" />
+					</footer>
+				</form>
+			</field>
+		</record>
+
+		<record id="bi_act_mass_cancel_wizard" model="ir.actions.act_window">
+			<field name="name">bi.act.mass.cancel.wizard</field>
+			<field name="res_model">mass.cancel.wizard</field>
+			<field name="binding_view_types">form</field>
+			<field name="view_mode">form</field>
+			<field name="view_id" ref="wizard_mass_cancel" />
+			<field name="target">new</field>
+		</record>
+
+		<record id="wizard_mass_cancel_draft" model="ir.ui.view">
+			<field name="name">wizard.mass.cancel.draft.form</field>
+			<field name="model">mass.cancel.draft.wizard</field>
+			<field name="arch" type="xml">
+				<form string="Mass Cancel" >
+					<group col="4" colspan="2" >
+						<field name="mass_cancel_draft" string="Are you sure want to cancel and reset to draft all selected Pos Order?"/>
+					</group>
+					<footer>
+	
+						<button name="on_click" string="Cancel and Reset to Draft"
+							type="object" class="oe_highlight" />
+						<button string="Cancel" class="oe_link" special="cancel" />
+					</footer>
+				</form>
+			</field>
+		</record>
+
+		<record id="bi_act_mass_cancel_draft_wizard" model="ir.actions.act_window">
+			<field name="name">bi.act.mass.cancel.draft.wizard</field>
+			<field name="res_model">mass.cancel.draft.wizard</field>
+			<field name="binding_view_types">form</field>
+			<field name="view_mode">form</field>
+			<field name="view_id" ref="wizard_mass_cancel_draft" />
+			<field name="target">new</field>
+		</record>
+
+	</data>
+</odoo>
